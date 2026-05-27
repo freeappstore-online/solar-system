@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/components/controls.tsx","./src/components/planetdetail.tsx","./src/components/scalecomparison.tsx","./src/data/planets.ts","./src/engine/renderer.ts","./src/hooks/usecanvas.ts"],"version":"5.9.3"}

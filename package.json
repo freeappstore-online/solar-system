@@ -1,0 +1,18 @@
+{
+  "name": "freesolarsystemapp",
+  "private": true,
+  "packageManager": "pnpm@10.30.3",
+  "engines": { "node": ">=22" },
+  "pnpm": { "onlyBuiltDependencies": ["esbuild"] },
+  "scripts": {
+    "dev": "pnpm --filter @solar-system/web dev",
+    "build": "pnpm --filter @solar-system/web build",
+    "preview": "pnpm --filter @solar-system/web preview",
+    "typecheck": "pnpm --filter @solar-system/web exec tsc -b",
+    "test": "pnpm --filter @solar-system/web test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeappstore-online/solar-system.git"
+  }
+}
